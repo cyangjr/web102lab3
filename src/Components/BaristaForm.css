@@ -1,0 +1,87 @@
+/* Add this to your App.css or create a new BaristaForm.css file */
+
+/* Flexbox layout */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: auto;
+    position: relative;
+  }
+  
+  .mini-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 50px;
+  }
+  
+  /* Answer space styling */
+  .answer-space {
+    background-color: #f5f5f5;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  /* Correct/Wrong indicators */
+  #correct {
+    background-color: #a8f0a8; /* Light green for correct answers */
+  }
+  
+  #wrong {
+    background-color: #f0a8a8; /* Light red for wrong answers */
+  }
+  
+  /* Radio button list styling */
+  .radio-buttons li {
+    list-style: none;
+    margin: 5px 0;
+  }
+  
+  /* Button styling */
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .submit {
+    background-color: #4a4a4a;
+    color: white;
+  }
+  
+  .newdrink {
+    background-color: #6a6a6a;
+    color: white;
+    font-size: 16px;
+  }
+  
+  /* Drink container styling */
+  .drink-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .mini-header {
+    margin-right: 15px;
+  }
+  
+  /* General styling */
+  h2, h3 {
+    color: white;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
